@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #384152;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+header>h1{
+    color: rgb(255, 255, 255, .9);
+    font-weight: 300;
+}
+
+header>h6{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.637);
+    font: 14px;
+    font-weight: 300;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-color: #4c5564;
+    position: fixed;
+    padding: 20px;
+    box-sizing: border-box;
+}
+article {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+    article>input {
+        width: 80%;
+        height: 45px;
+        border-radius: 20px;
+        border: none;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        outline: none;
+        background-color: #3e4653;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+    article>input, article>input:focus{
+        color: #fbffff;
+    }
+        article>input::placeholder{
+            color:#7f838c;
+        }
+    article>button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: white;
+        background-color: #3b82f6;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-weight: 500px;
+    }
+h2 {
+    font-size: 28px;
+    outline: #000000;
+    color: #fbffff;
+}
+    .tarea {
+        width: 80%;
+        height: 50px;
+        margin: 10px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        border: none;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        outline: none;
+        background-color: #3e4653;
+        color: #fbffff;
+    }
+    .tareaTerminada {
+        width: 80%;
+        height: 50px;
+        margin: 10px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        border: none;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        outline: none;
+        background-color: #383e4c;
+        color: #686f81;
+    } */
+    .tarea>input, .tareaTerminada>input {
+        margin-right: 5px;        
+    } 
+    input[type="checkbox"] {
+        appearance: none;
+        width: 1.2em;
+        height: 1.2em;
+        border-style:solid;
+        border-radius: 2px;
+        border-width: 1.5px;
+        border-color: #6a7382;
+        background-color: #3e4653;
+    }

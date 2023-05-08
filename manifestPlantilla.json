@@ -1,0 +1,23 @@
+{
+  "name": "TODOLIST PWA", 
+  "short_name": "TODOLIST", 
+  "start_url": "/",
+  "display": "standalone", 
+  "background_color": "#ff88ff",
+  "scope": "/", 
+  "description": "", 
+  "theme_color": "#40C090", 
+  
+  "icons": [
+    {
+      "src": "contrato.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "sensible.png",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ]
+}

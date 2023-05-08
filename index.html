@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2385ce6cbc.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="manifestPlantilla.json">
+
+</head>
+<body>
+    <header>
+        <h1>Mis pendientes</h1>
+        <h6 id="fecha">27 de Marzo</h6>
+    </header>
+
+    <section>
+        <article>
+            <input type="text" placeholder="Escribe Aqui" id="nuevaTarea">
+            <button onclick="agregar()">+</button>
+        </article>
+
+        <h2>Por hacer</h2>
+        <nav class="porhacer">
+            
+
+            
+        </nav>
+
+        <h2>Terminado</h2>
+        <nav class="terminado">
+        
+
+        
+        </nav>
+    </section>
+    
+
+</body>
+<script type="text/javascript" src="funciones.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', init);
+</script>
+
+
+</html>
